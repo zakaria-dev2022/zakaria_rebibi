@@ -66,8 +66,8 @@ header{
 .btn{
     font-size: 14px;
     font-weight: 600px;
-    height: 60px;
-    line-height: 35px;
+    height: 40px;
+    line-height: 50px;
     display: inline-block;
     justify-content: center;
     background: #00b87e;
@@ -678,11 +678,7 @@ span{
         font-size: 17px;
         transition: .2s;
     }
-    .btn{
-        height: 50px;
-        line-height: 50px;
-        padding: 0 28px;
-    }
+   
     .btn2{
         margin-left: 20px;
     }
@@ -768,7 +764,7 @@ span{
     }
     .btn{
         height: 30px;
-        line-height: 30px;
+        line-height: 10px;
         padding: 2 12px;
     }
     .btn2{
@@ -968,5 +964,46 @@ main .container {
     width: 350px;
 }
 .btnNav{
-    line-height: 60px;
+    line-height: 40px;
+    height: 40px;
+}
+
+@media (max-width: 640px) {
+    .navbar {
+        position: absolute;
+        top: -700px;
+        display: flex;
+        flex-direction: column;
+        background: #00b87e;
+        width: 100%;
+    }
+    .navbar.active {
+        top: 50px; /* Adjust to show the menu on smaller screens */
+    }
+    #menu-icon {
+        display: block; /* Make sure the icon is visible */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile img {
+        width: 200px;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .intro {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    .skills {
+        grid-template-columns: 1fr; /* Stack skills in one column */
+    }
 }
