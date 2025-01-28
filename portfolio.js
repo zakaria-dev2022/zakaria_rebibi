@@ -220,7 +220,7 @@ function openCarousel(carouselId) {
                 <img src="img/gestion ecole4.png" alt="">
                 <img src="img/gestion ecole5.png" alt="">
             `;
-            carouselDescription.textContent = 'Description for Gestion école project';
+            carouselDescription.textContent = `Cette application console est conçue pour gérer les principales données et opérations d'une école. Elle offre une interface simple permettant d'effectuer les tâches comme Ajouter, modifier, supprimer et afficher les informations des étudiants ,des professeurs ,les matières ,les absences, les notes  `;
             break;
         case '5':
             carouselImages.innerHTML = `
