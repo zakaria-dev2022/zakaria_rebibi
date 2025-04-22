@@ -644,17 +644,17 @@ strong {
 }
 .partie2 h2 {
   color: #082054;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: bold;
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-  /* margin-top: 19px; */
+  margin-top: 17px;
 }
-.partie2 h2 span {
+/* .partie2 h2 span {
   color: #ffffff;
   font-size: 2rem;
-}
+} */
 .partie2 ul a {
   color: white;
   text-decoration: none;
@@ -670,17 +670,18 @@ strong {
 }
 .partie3 h2 {
   color: #082054;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: bold;
   font-size: 2em;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-  /* margin-top: 19px; */
+  border-bottom: red !important;
+  margin-top: 17px;
 }
-.partie3 h2 span {
+/* .partie3 h2 span {
   color: #ffffff;
   font-size: 2rem;
-}
+} */
 .partie3 ul a {
   color: white;
   text-decoration: none;
@@ -710,4 +711,10 @@ strong {
 }
 .Copyright .icon:hover {
   color: #082054;
+}
+.card img {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
