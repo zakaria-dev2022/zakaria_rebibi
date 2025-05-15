@@ -660,7 +660,7 @@ strong {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   margin-bottom: 6px;
 }
 .partie2 ul a:hover {
@@ -687,7 +687,7 @@ strong {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   margin-bottom: 6px;
 }
 .partie3 ul a:hover {
@@ -698,7 +698,7 @@ strong {
 
 .Copyright {
   padding-top: 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -708,6 +708,7 @@ strong {
 .Copyright .icon {
   color: #ffffff;
   cursor: pointer;
+  font-size: 1.3rem;
 }
 .Copyright .icon:hover {
   color: #082054;
