@@ -86,7 +86,7 @@ section {
 .back {
   background-color: #082054;
   width: 60%;
-  height: 80%;
+  height: 83%;
   z-index: 1;
   border-radius: 50%;
   position: absolute;
@@ -97,9 +97,9 @@ section {
 .front {
   background: url(img/profil.jpg);
   background-size: cover;
-  background-position: center;
+  /* background-position: center; */
   width: 60%;
-  height: 80%;
+  height: 83%;
   z-index: 1;
   border-radius: 50%;
   position: absolute;
