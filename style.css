@@ -354,7 +354,7 @@ strong {
   animation: node 3s;
 }
 .java {
-  width: 50%;
+  width: 70%;
   animation: java 3s;
 }
 
@@ -464,7 +464,7 @@ strong {
     width: 0%;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 @keyframes angular {
