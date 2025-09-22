@@ -476,7 +476,7 @@ strong {
   }
 }
 /* *********************************************Portfolio*********************************** */
-.partie1-works h1 {
+/* .partie1-works h1 {
   color: #082054 !important;
 }
 
@@ -484,10 +484,10 @@ strong {
   font-weight: bold;
   font-style: italic;
   color: #082054;
-  /* text-shadow: #082054 2px 2px 10px; */
+  /* text-shadow: #082054 2px 2px 10px; /
 }
 #works .card {
-  /* border: #000000 1px solid; */
+  /* border: #000000 1px solid; /
   box-shadow: #082054 1px 0px 13px;
   border-radius: 0px 0px 20px 20px !important;
 }
@@ -502,7 +502,29 @@ strong {
 .carousel-control-prev-icon,
 .carousel-control-next-icon:hover {
   background-color: #082054 !important;
-}
+} */
+ .project-card {
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+    .project-img {
+      height: 200px;
+      object-fit: cover;
+      border-top-left-radius: .5rem;
+      border-top-right-radius: .5rem;
+    }
+    .tags span {
+      display: inline-block;
+      background: #e9ecef;
+      border-radius: 20px;
+      padding: 4px 10px;
+      font-size: 12px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
 /* *********************************************Contact*********************************** */
 .telephone a {
   color: #ffffff;
