@@ -741,3 +741,44 @@ strong {
   object-fit: cover;
   display: block;
 }
+/* ************************************************************* */
+.carousel {
+      /* width: 90%;
+      max-width: 1000px; */
+      overflow: hidden;
+      position: relative;
+      background: #cccccc2b; 
+      /* background: #0820543a;  */
+      /* border-radius: 16px; */
+      box-shadow: 0 1px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px 0;
+      margin-bottom: 50px;
+    }
+
+    .carousel-track {
+      display: flex;
+      gap: 40px;
+      animation: scroll 10s linear infinite;
+    }
+
+    .carousel img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+      transition: transform 0.3s ease;
+    }
+
+    .carousel img:hover {
+      transform: scale(1.1);
+    }
+
+    /* Animation du défilement */
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
